@@ -1,0 +1,41 @@
+/* src/components/TaskItem.module.css */
+.taskItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: #adc3ef; /* Equivalent to Tailwind's bg-gray-200 */
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  
+  .taskDetails {
+    display: flex;
+    align-items: center;
+  }
+  
+  .taskCheckbox {
+    margin-right: 8px;
+  }
+  
+  .taskTitle {
+    text-decoration: none;
+  }
+  
+  .taskTitle.completed {
+    text-decoration: line-through;
+  }
+  
+  .deleteButton {
+    background-color: #ef4444; /* Equivalent to Tailwind's bg-red-500 */
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .deleteButton:hover {
+    background-color: #dc2626; /* Darker red for hover effect */
+  }
+  
